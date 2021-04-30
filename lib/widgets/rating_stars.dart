@@ -10,7 +10,7 @@ class RatingStars extends StatelessWidget {
     String stars = "";
 
     for (int i = 0; i < rating; i++) {
-      stars = "X  ";
+      stars += "X  ";
     }
     stars.trim();
     return Text(
