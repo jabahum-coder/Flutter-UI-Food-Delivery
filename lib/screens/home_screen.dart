@@ -106,6 +106,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Theme.of(context).primaryColor,
+        brightness: Brightness.light,
         centerTitle: true,
         leading: IconButton(
           icon: Icon(Icons.account_circle),

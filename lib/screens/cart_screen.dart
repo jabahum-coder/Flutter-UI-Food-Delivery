@@ -120,6 +120,8 @@ class _CartScreenState extends State<CartScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Theme.of(context).primaryColor,
+        brightness: Brightness.light,
         centerTitle: true,
         title: Text("Cart(${currentUser.cart.length})"),
       ),
